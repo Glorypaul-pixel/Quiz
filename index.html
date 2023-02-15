@@ -26,7 +26,7 @@
             <div class="info">5. You'll get points on the basis of your correct answers.</div>
         </div>
         <div class="buttons">
-            <button class="quiz">Exit Quiz</button>
+            <button class="quit">Exit Quiz</button>
             <button class="restart">Continue</button>
         </div>
     </div>
@@ -36,20 +36,21 @@
                 Awesome Quiz Application
             </div>
             <div class="timer">
-                <div class="time-text">Time Left</div>
+                <div class="time-left-txt">Time Left</div>
                 <div class="time-sec">
                     15
                 </div>
             </div>
+            <div class="time-line"></div>
         </header>
         <section>
             <div class="que-text">
-                <span>
+                <!-- <span>
                     What does HTML stand for?
-                </span>
+                </span> -->
             </div>
             <div class="option-list">
-                <div class="option">
+                <!-- <div class="option">
                     <span>Hyper Text Preprocessor</span>
                     <div class="icon tick"><i class="fa-solid fa-check"></i></div>
                 </div>
@@ -65,22 +66,20 @@
                     <span>Hyper Tool Markup Language</span>
                     <div class="icon-tick"></div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <footer>
             <div class="total-que">
                 <span><p>15</p>of <p>30</p>Questions</span>
             </div>
-            <div class="next-btn"><button class="next-btn">
+            <button class="next-btn">
                 Next Que
             </button>
-               
-            </div>
         </footer>
     </div>
     <div class="result-box">
         <div class="icon">
-
+            <i class="fas fa-crown"></i>
         </div>
         <div class="complete-text">
             You've completed the Quiz!
@@ -90,11 +89,13 @@
         </div>
         <div class="buttons">
             <button class="restart">Replay Quiz</button>
-            <button class="quiz">
+            <button class="quit">
                 Quit Quiz
             </button>
         </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="./quetion.js"></script>
+    <script src="js/script.js" ></script>
+    <!-- <script src="./quetion.js"></script> -->
 </body>
 </html>
